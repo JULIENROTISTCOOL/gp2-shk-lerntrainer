@@ -1,1 +1,48 @@
 <!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GP2 SHK Lerntrainer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #101827;
+      color: white;
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+    section {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 12px;
+      margin-top: 20px;
+    }
+    button {
+      padding: 12px 18px;
+      border: 0;
+      border-radius: 8px;
+      background: #69d3b0;
+      cursor: pointer;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <h1>GP2 SHK Lerntrainer</h1>
+  <p>Deine Vorbereitung auf die Gesellenprüfung Teil 2.</p>
+
+  <section>
+    <h2>Erste Übung</h2>
+    <p>Wie berechnet man die Wärmemenge zum Erwärmen von Wasser?</p>
+    <button onclick="document.getElementById('antwort').hidden = false">
+      Antwort anzeigen
+    </button>
+    <p id="antwort" hidden>
+      Q = m × c × ΔT. Die Wärmemenge ergibt sich aus Masse,
+      spezifischer Wärmekapazität und Temperaturänderung.
+    </p>
+  </section>
+</body>
+</html>
